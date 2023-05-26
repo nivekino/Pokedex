@@ -1,9 +1,9 @@
 import "./App.css";
 import AppRouter from "./Routers/AppRouter";
-import {PokemonProvider} from "./Context/PokemonProvider";
+import { PokemonProvider } from "./context/PokemonProvider";
 
 function App() {
-  return(
+  return (
     <PokemonProvider>
       <AppRouter />
     </PokemonProvider>
